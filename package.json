@@ -1,0 +1,8 @@
+{
+	"name": "@c15t/examples",
+	"private": true,
+	"packageManager": "pnpm@10.8.0",
+	"engines": {
+		"node": ">=22"
+	}
+}
