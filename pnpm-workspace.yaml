@@ -1,2 +1,8 @@
 packages:
-  - examples/*
+  - astro-react
+  - cloudflare-worker
+  - next
+  - next-pages
+  - next-self-host
+  - svelte
+  - vite-react

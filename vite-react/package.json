@@ -1,0 +1,23 @@
+{
+	"name": "@c15t-examples/vite-react",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "tsc -b && vite build",
+		"check-types": "tsc --noEmit",
+		"dev": "vite",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "19.2.0",
+		"react-dom": "19.2.0"
+	},
+	"devDependencies": {
+		"@c15t/react": "1.6.1",
+		"@types/react": "19.2.0",
+		"@types/react-dom": "19.2.0",
+		"@vitejs/plugin-react-swc": "4.1.0",
+		"typescript": "~5.9.3",
+		"vite": "7.1.8"
+	}
+}
