@@ -6,9 +6,11 @@
     </picture>
   </a>
   <br />
-  <h1 align="center">c15t: examples</h1>
+  <h1 align="center">c15t examples</h1>
 </p>
+
 &nbsp;
+
 This repository contains examples that use [c15t](https://c15t.com).
 
 ## Included Examples
