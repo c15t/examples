@@ -1,48 +1,81 @@
-# Astro Starter Kit: Basics
+# c15t + Astro + React Example
 
-```sh
-npm create astro@latest -- --template basics
+This example demonstrates how to integrate c15t consent management with an Astro project using React components.
+
+## Getting Started
+
+1. Install dependencies:
+
+```bash
+pnpm install
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+2. Run the development server:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+pnpm dev
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+3. Open [http://localhost:4321](http://localhost:4321) in your browser.
 
-## 🧞 Commands
+## Project Structure
 
-All commands are run from the root of the project, from a terminal:
+- `src/components/ConsentManager.tsx` - Main consent manager component with configuration
+- `src/components/HomePage.tsx` - Example page showing consent manager features
+- `src/layouts/Layout.astro` - Base HTML layout with Tailwind CSS
+- `src/pages/index.astro` - Entry page that combines all components
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Key Features
 
-## 👀 Want to learn more?
+- **Cookie Banner** - Automatically displays based on user's location and consent status
+- **Consent Dialog** - Privacy settings dialog for managing consent preferences
+- **Script Management** - Example Google Tag integration with consent categories
+- **Callbacks** - Examples of `onBannerFetched`, `onConsentSet`, and `onError` callbacks
+- **Frame Component** - Content blocking based on consent (see YouTube iframe example)
+- **Consent State** - Real-time display of current consent and location information
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## How It Works
+
+Unlike Next.js which requires separate server/client components for SSR, `@c15t/react` handles both server and client functionality in a single provider. The `ConsentManagerProvider` accepts:
+
+- `options` - Configuration (mode, backendURL, etc.)
+- `scripts` - Array of scripts to load based on consent
+- `callbacks` - Client-side callbacks for events
+
+### Adding Client-Side Options
+
+Since you mentioned that the `consent-manager.client.tsx` pattern is not needed in `@c15t/react`, all client-side options (scripts, callbacks) are passed directly to the `ConsentManagerProvider` in `src/components/ConsentManager.tsx`:
+
+```tsx
+<ConsentManagerProvider
+  options={{
+    mode: "c15t",
+    backendURL: "https://consent.io/c15t"
+  }}
+  scripts={[
+    gtag({
+      id: "G-TFNB629WV6",
+      category: "measurement"
+    })
+  ]}
+  callbacks={{
+    onBannerFetched(response) {
+      console.log("onBannerFetched", response);
+    },
+    onConsentSet(response) {
+      console.log("onConsentSet", response);
+    },
+    onError(response) {
+      console.log("onError", response);
+    }
+  }}
+>
+  {/* ... */}
+</ConsentManagerProvider>
+```
+
+## Learn More
+
+- [c15t Documentation](https://c15t.com/docs/frameworks/react/quickstart)
+- [Astro Documentation](https://docs.astro.build)
+- [View on GitHub](https://github.com/c15t/examples)

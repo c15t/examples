@@ -1,50 +1,84 @@
-# React + TypeScript + Vite
+# c15t + Vite + React Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This example demonstrates how to integrate c15t consent management with a Vite + React project.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install dependencies:
 
-## Expanding the ESLint configuration
+```bash
+pnpm install
+```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Run the development server:
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+pnpm dev
+```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
+3. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+- `src/components/ConsentManager.tsx` - Main consent manager component with configuration
+- `src/components/HomePage.tsx` - Example page showing consent manager features
+- `src/components/ThemeProvider.tsx` - Theme management provider for light/dark mode
+- `src/components/ThemeToggle.tsx` - Theme toggle button component
+- `src/app.tsx` - Main application component
+- `src/app.css` - Tailwind CSS styles and theme variables
+
+## Key Features
+
+- **Cookie Banner** - Automatically displays based on user's location and consent status
+- **Consent Dialog** - Privacy settings dialog for managing consent preferences
+- **Script Management** - Example Google Tag integration with consent categories
+- **Callbacks** - Examples of `onBannerFetched`, `onConsentSet`, and `onError` callbacks
+- **Frame Component** - Content blocking based on consent (see YouTube iframe example)
+- **Consent State** - Real-time display of current consent and location information
+- **Theme Toggle** - Light/dark mode toggle with localStorage persistence
+
+## How It Works
+
+`@c15t/react` handles both server and client functionality in a single provider. The `ConsentManagerProvider` accepts:
+
+- `options` - Configuration (mode, backendURL, etc.)
+- `scripts` - Array of scripts to load based on consent
+- `callbacks` - Client-side callbacks for events
+
+### Adding Client-Side Options
+
+All client-side options (scripts, callbacks) are passed directly to the `ConsentManagerProvider` in `src/components/ConsentManager.tsx`:
+
+```tsx
+<ConsentManagerProvider
+  options={{
+    mode: "c15t",
+    backendURL: "https://consent-io-europe-c15t-examples.c15t.dev"
+  }}
+  scripts={[
+    gtag({
+      id: "G-TFNB629WV6",
+      category: "measurement"
+    })
+  ]}
+  callbacks={{
+    onBannerFetched(response) {
+      console.log("onBannerFetched", response);
     },
-  },
-})
+    onConsentSet(response) {
+      console.log("onConsentSet", response);
+    },
+    onError(response) {
+      console.log("onError", response);
+    }
+  }}
+>
+  {/* ... */}
+</ConsentManagerProvider>
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Learn More
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [c15t Documentation](https://c15t.com/docs/frameworks/react/quickstart)
+- [Vite Documentation](https://vite.dev)
+- [View on GitHub](https://github.com/c15t/examples)
