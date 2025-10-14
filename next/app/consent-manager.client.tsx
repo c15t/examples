@@ -24,7 +24,7 @@ export function ConsentManagerClient({ children }: { children: ReactNode }) {
   return (
     <ClientSideOptionsProvider
       scripts={[
-        // Premade Googl Tag script which you can use to load Google Analytics, Google Ads etc.
+        // Premade Google Tag script which you can use to load Google Analytics, Google Ads etc.
         gtag({
           id: "G-TFNB629WV6",
           category: "measurement"
