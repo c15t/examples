@@ -4,5 +4,10 @@
 	"packageManager": "pnpm@10.8.0",
 	"engines": {
 		"node": ">=22"
+	},
+	"pnpm": {
+		"overrides": {
+			"next@<=15.4.7": "15.4.7"
+		}
 	}
 }
