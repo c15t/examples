@@ -14,11 +14,11 @@ importers:
         specifier: 4.2.3
         version: 4.2.3(@types/node@24.6.2)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@c15t/react':
-        specifier: ^1.7.0-canary-20251012181938
-        version: 1.7.0-canary-20251012181938(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+        specifier: ^1.7.1
+        version: 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@c15t/scripts':
-        specifier: ^1.0.0-canary-20251012181938
-        version: 1.0.0-canary-20251012181938
+        specifier: ^1.0.0
+        version: 1.0.0
       '@remixicon/react':
         specifier: ^4.6.0
         version: 4.6.0(react@19.2.0)
@@ -47,11 +47,11 @@ importers:
   cloudflare-worker:
     dependencies:
       '@c15t/backend':
-        specifier: 1.6.0
-        version: 1.6.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+        specifier: ^1.7.1
+        version: 1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@c15t/cli':
-        specifier: 1.6.1
-        version: 1.6.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+        specifier: ^1.7.1
+        version: 1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@libsql/client':
         specifier: 0.15.15
         version: 0.15.15
@@ -87,11 +87,14 @@ importers:
   next:
     dependencies:
       '@c15t/nextjs':
-        specifier: ^1.7.0-canary-20251012181938
-        version: 1.7.0-canary-20251012181938(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(next@15.5.5(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^1.7.1
+        version: 1.7.1(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(next@15.5.5(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@c15t/scripts':
-        specifier: ^1.0.0-canary-20251012181938
-        version: 1.0.0-canary-20251012181938
+        specifier: ^1.0.0
+        version: 1.0.0
+      '@c15t/translations':
+        specifier: ^1.7.0
+        version: 1.7.0
       '@remixicon/react':
         specifier: ^4.6.0
         version: 4.6.0(react@19.1.0)
@@ -130,11 +133,11 @@ importers:
   next-pages:
     dependencies:
       '@c15t/nextjs':
-        specifier: ^1.7.0-canary-20251012181938
-        version: 1.7.0-canary-20251012181938(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(next@15.5.5(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^1.7.1
+        version: 1.7.1(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(next@15.5.5(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@c15t/scripts':
-        specifier: ^1.0.0-canary-20251012181938
-        version: 1.0.0-canary-20251012181938
+        specifier: ^1.0.0
+        version: 1.0.0
       '@remixicon/react':
         specifier: ^4.6.0
         version: 4.6.0(react@19.1.0)
@@ -176,14 +179,14 @@ importers:
   next-self-host:
     dependencies:
       '@c15t/backend':
-        specifier: 1.6.0
-        version: 1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+        specifier: ^1.7.1
+        version: 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@c15t/cli':
-        specifier: 1.6.1*
-        version: 1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+        specifier: ^1.7.1
+        version: 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@c15t/nextjs':
-        specifier: 1.6.1
-        version: 1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(next@15.5.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+        specifier: ^1.7.1
+        version: 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(next@15.5.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@libsql/client':
         specifier: 0.15.15
         version: 0.15.15
@@ -232,7 +235,7 @@ importers:
         version: 4.1.4(vite@7.1.8(@types/node@24.6.2)(jiti@2.6.1)(lightningcss@1.30.2))
       c15t:
         specifier: 1.6.0
-        version: 1.6.0(@opentelemetry/api@1.9.0)(@types/react@19.2.0)(crossws@0.4.1)(react@19.2.0)(ws@8.18.3)
+        version: 1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       tailwindcss:
         specifier: 4.1.14
         version: 4.1.14
@@ -262,11 +265,11 @@ importers:
   vite-react:
     dependencies:
       '@c15t/react':
-        specifier: ^1.7.0-canary-20251012181938
-        version: 1.7.0-canary-20251012181938(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+        specifier: ^1.7.1
+        version: 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@c15t/scripts':
-        specifier: ^1.0.0-canary-20251012181938
-        version: 1.0.0-canary-20251012181938
+        specifier: ^1.0.0
+        version: 1.0.0
       '@remixicon/react':
         specifier: ^4.6.0
         version: 4.6.0(react@19.2.0)
@@ -474,50 +477,37 @@ packages:
   '@c15t/backend@1.6.0':
     resolution: {integrity: sha512-A9XeHFUIrJxda53yxgErmmHy9W/tFAJCtn0aMWNTPS2fEMhrAs3H5ICFzXDqeEo/0g4BE8Pg6Y86ocJwPLcXAg==}
 
-  '@c15t/backend@1.7.0-canary-20251012181938':
-    resolution: {integrity: sha512-YQ67y3rpe6mRxcOnBQAFqqsR+z3qjkUjcGDb8xjB2Sz3dEbMvhXB+DvARAeIRCBVIHnljwZk3iE9HwXKCVlsFQ==}
+  '@c15t/backend@1.7.1':
+    resolution: {integrity: sha512-oO+UM7fI93qb1KC+r02FCPeva+cUEySZ0S3MPbUWM5OG5vc/tz6JaPeAK9wEc1TTXszvv5zuNKrK1FYgYNcNdQ==}
 
-  '@c15t/cli@1.6.1':
-    resolution: {integrity: sha512-AEua/BT5FQ8TA/HWqfm66wZBoyB4deahN4KcP1tbqfLzEDqZ4JAEBNRzC9i3tPFSCHAM1+7Lu/4eop8y376SRg==}
+  '@c15t/cli@1.7.1':
+    resolution: {integrity: sha512-k7FscFCOQ9E+Faug1TFn/7XU633w6wepw96svhG8utBCZIH2Je7r8xC1JCqAjcPEoHBQ6LQMq/O6deowq9Eawg==}
     hasBin: true
 
-  '@c15t/logger@1.0.0-canary-20251012181938':
-    resolution: {integrity: sha512-1oef0oiKsAZMt12baZ32Y06pzZWzlFVmC1zKH61x73lTZBsYos/i4wRZ5Xqpaq1caK+hxQolf6vDYKZnbHvg8w==}
+  '@c15t/logger@1.0.0':
+    resolution: {integrity: sha512-z2RrUnvO5bbEg/qd9iD/TqdBi04vfvALf2uovDVLJiQTNfOVUb7FM/GkPH5mugiDwErlrtVhAW8hW/2VmBXbUA==}
 
-  '@c15t/nextjs@1.6.1':
-    resolution: {integrity: sha512-IW6cTE/f7zRhuWj31P8plH0NsiVjwda64MDeiPDMUHES5GzH7XD1gzPBHrDwwiuHoaVh75jHJYlHPXdAofdXRA==}
+  '@c15t/nextjs@1.7.1':
+    resolution: {integrity: sha512-TNs9x5eKQ+vkJ9LY0h54DyGZqa4GeUMqnTSS5PC7hczA/QkyoUJkyj7agRUzZsPVBeQEVw7xXbJEhuwr8p+C5Q==}
     peerDependencies:
       next: ^15.0.0 || ^14.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
 
-  '@c15t/nextjs@1.7.0-canary-20251012181938':
-    resolution: {integrity: sha512-LOZsHiZC9P3J+5S2Xx/BTU1Enh5T5vK2ORVNfZtdZW1IUuo5FbHAWxMnSAn3haHHKORmX4Vfesf8NwUbN8w8pQ==}
-    peerDependencies:
-      next: ^15.0.0 || ^14.0.0 || ^13.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-
-  '@c15t/react@1.6.1':
-    resolution: {integrity: sha512-l5snHHOVbO+uS3IYB4YOi9YJqsU7rpNaboFqTyy7N0uR51d30EkO8rhn8yYtMcVJyxCuiz9f8n+/6YGPW/BJmA==}
+  '@c15t/react@1.7.1':
+    resolution: {integrity: sha512-Ey6SUOxhf3nEiomYhRR9Axiy4Ku47zrSIDIvJ+amhHEhCS8jyJNQBdclUAggUFzvB8xVJQfGuniU6X6IzjL39Q==}
     peerDependencies:
       react: ^19.0.0 || ^19.0.0-rc || ^18.0.0 || ^17.0.0 || ^16.8.0
       react-dom: ^19.0.0 || ^19.0.0-rc || ^18.0.0 || ^17.0.0 || ^16.8.0
 
-  '@c15t/react@1.7.0-canary-20251012181938':
-    resolution: {integrity: sha512-24qrKn2ulEOXi+YRxAO6XoTPe6ftr5vU+variOBP3qZLEjj73Io/+NQ5qdW78HTDIHcRSiUyGFUu5zCgYdZL1w==}
-    peerDependencies:
-      react: ^19.0.0 || ^19.0.0-rc || ^18.0.0 || ^17.0.0 || ^16.8.0
-      react-dom: ^19.0.0 || ^19.0.0-rc || ^18.0.0 || ^17.0.0 || ^16.8.0
-
-  '@c15t/scripts@1.0.0-canary-20251012181938':
-    resolution: {integrity: sha512-IPhBxDBGONuNyNraFBSfGWwaQCX+cX+SOPobTJwHc9QF7D4DjtdpZTzo9c58pxde/5ulMxja66J37uMxINHNZQ==}
+  '@c15t/scripts@1.0.0':
+    resolution: {integrity: sha512-mMV9BC5HqRvMm1sLzMk3B7XOfaihTfPg1eZr6XJNml5XsKtyrQgbTPHNK5bFH0HBK4jAZYKLGI87qaCJtuQURQ==}
 
   '@c15t/translations@1.6.0':
     resolution: {integrity: sha512-a700vmWWVYH+++0N+Mdwy33fX+O5hJF9QGB6cG5zsmJ8B0ef6XXKQ7DC3xN1Xt+xO0J7fACacDm40ZIxOlxiWg==}
 
-  '@c15t/translations@1.7.0-canary-20251012181938':
-    resolution: {integrity: sha512-HAGHQ8OHs8kxd1/Wq5eYHUctTc4YDpgsyc8C2C6dAnOSYkkHnMf8vpNXtpE5fJCHsiVD2SyHtpV8TUtub+80sg==}
+  '@c15t/translations@1.7.0':
+    resolution: {integrity: sha512-irrJAni2Cei56wHLmGoIoPHoXk/ygXllWs4dBF9LL0D/Ns7bvcBi/CAPCnCD1hw4FnoJ9amPqYtVKQ3sT++JaQ==}
 
   '@chevrotain/cst-dts-gen@10.5.0':
     resolution: {integrity: sha512-lhmC/FyqQ2o7pGK4Om+hzuDrm9rhFYIJ/AXoQBeongmn870Xeb0L6oGEiuR8nohFNL5sMaQEJWCxr1oIVIVXrw==}
@@ -2640,8 +2630,8 @@ packages:
   c15t@1.6.0:
     resolution: {integrity: sha512-ZuphxalLCQoaktLrioBikiziHb8sYue3InPNWcaACxwmke/eTR58UZ2fXa5O4cfrI03Q8GVGVem1Cnl6ewn5mg==}
 
-  c15t@1.7.0-canary-20251012181938:
-    resolution: {integrity: sha512-zLNzwcgApxFLEGUpyrv7w85Vfwt5j8p4SZO2tAVKWcoUbsQmRGWy3np6+2kd5W19j22XZPz/FPVZ6CpWJT5E0Q==}
+  c15t@1.7.1:
+    resolution: {integrity: sha512-MXQt0zsqTRbUs+9dNc9PivauJWc9232akbotS3NmUXnkMLBxYsCduSvqe560HDVVj0uhIQmYx0Yp0JbvHp/5yw==}
 
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
@@ -5401,195 +5391,6 @@ snapshots:
   '@biomejs/cli-win32-x64@2.2.0':
     optional: true
 
-  '@c15t/backend@1.6.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
-    dependencies:
-      '@c15t/translations': 1.6.0
-      '@doubletie/logger': 1.0.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
-      '@orpc/contract': 1.8.1(@opentelemetry/api@1.9.0)
-      '@orpc/openapi': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/otel': 1.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))
-      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
-      base-x: 5.0.1
-      defu: 6.1.4
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3)
-      fumadb: 0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))
-      kysely: 0.27.6
-      neverthrow: 8.2.0
-      superjson: 2.2.2
-      zod: 4.1.11
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - react
-      - react-dom
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - ws
-
-  '@c15t/backend@1.6.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
-    dependencies:
-      '@c15t/translations': 1.6.0
-      '@doubletie/logger': 1.0.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
-      '@orpc/contract': 1.8.1(@opentelemetry/api@1.9.0)
-      '@orpc/openapi': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/otel': 1.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))
-      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
-      base-x: 5.0.1
-      defu: 6.1.4
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3)
-      fumadb: 0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))
-      kysely: 0.27.6
-      neverthrow: 8.2.0
-      superjson: 2.2.2
-      zod: 4.1.11
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - react
-      - react-dom
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - ws
-
-  '@c15t/backend@1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
-    dependencies:
-      '@c15t/translations': 1.6.0
-      '@doubletie/logger': 1.0.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
-      '@orpc/contract': 1.8.1(@opentelemetry/api@1.9.0)
-      '@orpc/openapi': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/otel': 1.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))
-      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
-      base-x: 5.0.1
-      defu: 6.1.4
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
-      fumadb: 0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
-      kysely: 0.27.6
-      neverthrow: 8.2.0
-      superjson: 2.2.2
-      zod: 4.1.11
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - react
-      - react-dom
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - ws
-
   '@c15t/backend@1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
     dependencies:
       '@c15t/translations': 1.6.0
@@ -5653,10 +5454,10 @@ snapshots:
       - typeorm
       - ws
 
-  '@c15t/backend@1.6.0(crossws@0.4.1)(react@19.2.0)(ws@8.18.3)':
+  '@c15t/backend@1.7.1':
     dependencies:
-      '@c15t/translations': 1.6.0
-      '@doubletie/logger': 1.0.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@c15t/logger': 1.0.0
+      '@c15t/translations': 1.7.0
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
@@ -5668,71 +5469,8 @@ snapshots:
       '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
       base-x: 5.0.1
       defu: 6.1.4
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
-      fumadb: 0.1.1(drizzle-orm@0.41.0(@opentelemetry/api@1.9.0)(kysely@0.27.6))
-      kysely: 0.27.6
-      neverthrow: 8.2.0
-      superjson: 2.2.2
-      zod: 4.1.11
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - react
-      - react-dom
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - ws
-
-  '@c15t/backend@1.7.0-canary-20251012181938':
-    dependencies:
-      '@c15t/logger': 1.0.0-canary-20251012181938
-      '@c15t/translations': 1.7.0-canary-20251012181938
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
-      '@orpc/contract': 1.8.1(@opentelemetry/api@1.9.0)
-      '@orpc/openapi': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/otel': 1.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))
-      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
-      base-x: 5.0.1
-      defu: 6.1.4
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
-      fumadb: 0.1.1(drizzle-orm@0.41.0(@opentelemetry/api@1.9.0)(kysely@0.27.6))
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
+      fumadb: 0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
       kysely: 0.27.6
       neverthrow: 8.2.0
       superjson: 2.2.2
@@ -5752,6 +5490,7 @@ snapshots:
       - '@types/better-sqlite3'
       - '@types/pg'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
@@ -5772,10 +5511,10 @@ snapshots:
       - typeorm
       - ws
 
-  '@c15t/backend@1.7.0-canary-20251012181938(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+  '@c15t/backend@1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
     dependencies:
-      '@c15t/logger': 1.0.0-canary-20251012181938
-      '@c15t/translations': 1.7.0-canary-20251012181938
+      '@c15t/logger': 1.0.0
+      '@c15t/translations': 1.7.0
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
@@ -5787,8 +5526,8 @@ snapshots:
       '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
       base-x: 5.0.1
       defu: 6.1.4
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
-      fumadb: 0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3)
+      fumadb: 0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.28.4)(mysql2@3.14.3)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))
       kysely: 0.27.6
       neverthrow: 8.2.0
       superjson: 2.2.2
@@ -5808,6 +5547,7 @@ snapshots:
       - '@types/better-sqlite3'
       - '@types/pg'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
@@ -5828,12 +5568,183 @@ snapshots:
       - typeorm
       - ws
 
-  '@c15t/cli@1.6.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+  '@c15t/backend@1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
     dependencies:
-      '@c15t/backend': 1.6.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      '@c15t/react': 1.6.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/logger': 1.0.0
+      '@c15t/translations': 1.7.0
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
+      '@orpc/contract': 1.8.1(@opentelemetry/api@1.9.0)
+      '@orpc/openapi': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      '@orpc/otel': 1.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))
+      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
+      base-x: 5.0.1
+      defu: 6.1.4
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3)
+      fumadb: 0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.28.4)(mysql2@3.14.3)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))
+      kysely: 0.27.6
+      neverthrow: 8.2.0
+      superjson: 2.2.2
+      zod: 4.1.11
+    transitivePeerDependencies:
+      - '@aws-sdk/client-rds-data'
+      - '@cloudflare/workers-types'
+      - '@electric-sql/pglite'
+      - '@libsql/client'
+      - '@libsql/client-wasm'
+      - '@neondatabase/serverless'
+      - '@op-engineering/op-sqlite'
+      - '@opentelemetry/instrumentation'
+      - '@planetscale/database'
+      - '@prisma/client'
+      - '@tidbcloud/serverless'
+      - '@types/better-sqlite3'
+      - '@types/pg'
+      - '@types/sql.js'
+      - '@upstash/redis'
+      - '@vercel/postgres'
+      - '@xata.io/client'
+      - better-sqlite3
+      - bun-types
+      - convex
+      - crossws
+      - expo-sqlite
+      - gel
+      - knex
+      - mongodb
+      - mysql2
+      - pg
+      - postgres
+      - prisma
+      - sql.js
+      - sqlite3
+      - supports-color
+      - typeorm
+      - ws
+
+  '@c15t/backend@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+    dependencies:
+      '@c15t/logger': 1.0.0
+      '@c15t/translations': 1.7.0
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
+      '@orpc/contract': 1.8.1(@opentelemetry/api@1.9.0)
+      '@orpc/openapi': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      '@orpc/otel': 1.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))
+      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
+      base-x: 5.0.1
+      defu: 6.1.4
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
+      fumadb: 0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
+      kysely: 0.27.6
+      neverthrow: 8.2.0
+      superjson: 2.2.2
+      zod: 4.1.11
+    transitivePeerDependencies:
+      - '@aws-sdk/client-rds-data'
+      - '@cloudflare/workers-types'
+      - '@electric-sql/pglite'
+      - '@libsql/client'
+      - '@libsql/client-wasm'
+      - '@neondatabase/serverless'
+      - '@op-engineering/op-sqlite'
+      - '@opentelemetry/instrumentation'
+      - '@planetscale/database'
+      - '@prisma/client'
+      - '@tidbcloud/serverless'
+      - '@types/better-sqlite3'
+      - '@types/pg'
+      - '@types/sql.js'
+      - '@upstash/redis'
+      - '@vercel/postgres'
+      - '@xata.io/client'
+      - better-sqlite3
+      - bun-types
+      - convex
+      - crossws
+      - expo-sqlite
+      - gel
+      - knex
+      - mongodb
+      - mysql2
+      - pg
+      - postgres
+      - prisma
+      - sql.js
+      - sqlite3
+      - supports-color
+      - typeorm
+      - ws
+
+  '@c15t/backend@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+    dependencies:
+      '@c15t/logger': 1.0.0
+      '@c15t/translations': 1.7.0
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/resources': 2.1.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-node': 0.203.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-base': 2.1.0(@opentelemetry/api@1.9.0)
+      '@orpc/contract': 1.8.1(@opentelemetry/api@1.9.0)
+      '@orpc/openapi': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      '@orpc/otel': 1.9.2(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))
+      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      '@orpc/zod': 1.8.1(@opentelemetry/api@1.9.0)(@orpc/contract@1.8.1(@opentelemetry/api@1.9.0))(@orpc/server@1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3))(crossws@0.4.1)(ws@8.18.3)(zod@4.1.11)
+      base-x: 5.0.1
+      defu: 6.1.4
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
+      fumadb: 0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
+      kysely: 0.27.6
+      neverthrow: 8.2.0
+      superjson: 2.2.2
+      zod: 4.1.11
+    transitivePeerDependencies:
+      - '@aws-sdk/client-rds-data'
+      - '@cloudflare/workers-types'
+      - '@electric-sql/pglite'
+      - '@libsql/client'
+      - '@libsql/client-wasm'
+      - '@neondatabase/serverless'
+      - '@op-engineering/op-sqlite'
+      - '@opentelemetry/instrumentation'
+      - '@planetscale/database'
+      - '@prisma/client'
+      - '@tidbcloud/serverless'
+      - '@types/better-sqlite3'
+      - '@types/pg'
+      - '@types/sql.js'
+      - '@upstash/redis'
+      - '@vercel/postgres'
+      - '@xata.io/client'
+      - better-sqlite3
+      - bun-types
+      - convex
+      - crossws
+      - expo-sqlite
+      - gel
+      - knex
+      - mongodb
+      - mysql2
+      - pg
+      - postgres
+      - prisma
+      - sql.js
+      - sqlite3
+      - supports-color
+      - typeorm
+      - ws
+
+  '@c15t/cli@1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+    dependencies:
+      '@c15t/backend': 1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/logger': 1.0.0
+      '@c15t/react': 1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@clack/prompts': 0.10.1
-      '@doubletie/logger': 1.0.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@mrleebo/prisma-ast': 0.12.1
       '@types/better-sqlite3': 7.6.13
       better-sqlite3: 11.10.0
@@ -5850,7 +5761,6 @@ snapshots:
       zod: 3.25.76
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
-      - '@babel/core'
       - '@cloudflare/workers-types'
       - '@electric-sql/pglite'
       - '@libsql/client'
@@ -5860,17 +5770,15 @@ snapshots:
       - '@opentelemetry/api'
       - '@opentelemetry/instrumentation'
       - '@planetscale/database'
-      - '@playwright/test'
       - '@prisma/client'
       - '@tidbcloud/serverless'
       - '@types/pg'
       - '@types/react'
       - '@types/react-dom'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
       - bun-types
       - convex
       - crossws
@@ -5887,7 +5795,6 @@ snapshots:
       - prisma
       - react
       - react-dom
-      - sass
       - sql.js
       - sqlite3
       - supports-color
@@ -5895,12 +5802,12 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  '@c15t/cli@1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+  '@c15t/cli@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(crossws@0.4.1)(magicast@0.3.5)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
     dependencies:
-      '@c15t/backend': 1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      '@c15t/react': 1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/backend': 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/logger': 1.0.0
+      '@c15t/react': 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       '@clack/prompts': 0.10.1
-      '@doubletie/logger': 1.0.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@mrleebo/prisma-ast': 0.12.1
       '@types/better-sqlite3': 7.6.13
       better-sqlite3: 11.10.0
@@ -5917,7 +5824,6 @@ snapshots:
       zod: 3.25.76
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
-      - '@babel/core'
       - '@cloudflare/workers-types'
       - '@electric-sql/pglite'
       - '@libsql/client'
@@ -5927,17 +5833,15 @@ snapshots:
       - '@opentelemetry/api'
       - '@opentelemetry/instrumentation'
       - '@planetscale/database'
-      - '@playwright/test'
       - '@prisma/client'
       - '@tidbcloud/serverless'
       - '@types/pg'
       - '@types/react'
       - '@types/react-dom'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
       - bun-types
       - convex
       - crossws
@@ -5954,7 +5858,6 @@ snapshots:
       - prisma
       - react
       - react-dom
-      - sass
       - sql.js
       - sqlite3
       - supports-color
@@ -5962,22 +5865,21 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  '@c15t/logger@1.0.0-canary-20251012181938':
+  '@c15t/logger@1.0.0':
     dependencies:
       chalk: 5.6.2
       neverthrow: 8.2.0
       picocolors: 1.1.1
 
-  '@c15t/nextjs@1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(next@15.5.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+  '@c15t/nextjs@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(next@15.5.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
     dependencies:
-      '@c15t/react': 1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      '@c15t/translations': 1.6.0
+      '@c15t/react': 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/translations': 1.7.0
       next: 15.5.4(@opentelemetry/api@1.9.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
     transitivePeerDependencies:
       - '@aws-sdk/client-rds-data'
-      - '@babel/core'
       - '@cloudflare/workers-types'
       - '@electric-sql/pglite'
       - '@libsql/client'
@@ -5987,7 +5889,6 @@ snapshots:
       - '@opentelemetry/api'
       - '@opentelemetry/instrumentation'
       - '@planetscale/database'
-      - '@playwright/test'
       - '@prisma/client'
       - '@tidbcloud/serverless'
       - '@types/better-sqlite3'
@@ -5995,10 +5896,9 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
       - better-sqlite3
       - bun-types
       - convex
@@ -6012,7 +5912,6 @@ snapshots:
       - pg
       - postgres
       - prisma
-      - sass
       - sql.js
       - sqlite3
       - supports-color
@@ -6020,10 +5919,10 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  '@c15t/nextjs@1.7.0-canary-20251012181938(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(next@15.5.5(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@c15t/nextjs@1.7.1(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(next@15.5.5(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@c15t/react': 1.7.0-canary-20251012181938(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@c15t/translations': 1.7.0-canary-20251012181938
+      '@c15t/react': 1.7.1(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@c15t/translations': 1.7.0
       next: 15.5.5(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
@@ -6045,6 +5944,7 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
@@ -6067,177 +5967,12 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  '@c15t/react@1.6.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+  '@c15t/react@1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
     dependencies:
-      '@radix-ui/react-accordion': 1.2.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@radix-ui/react-accordion': 1.2.4(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@radix-ui/react-slot': 1.2.0(@types/react@19.2.0)(react@19.2.0)
       '@radix-ui/react-switch': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      c15t: 1.6.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      clsx: 2.1.1
-      react: 19.2.0
-      react-dom: 19.2.0(react@19.2.0)
-      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/api'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/react'
-      - '@types/react-dom'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - immer
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - use-sync-external-store
-      - ws
-
-  '@c15t/react@1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
-    dependencies:
-      '@radix-ui/react-accordion': 1.2.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@radix-ui/react-slot': 1.2.0(@types/react@19.2.0)(react@19.2.0)
-      '@radix-ui/react-switch': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      c15t: 1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      clsx: 2.1.1
-      react: 19.2.0
-      react-dom: 19.2.0(react@19.2.0)
-      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/api'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/react'
-      - '@types/react-dom'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - immer
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - use-sync-external-store
-      - ws
-
-  '@c15t/react@1.6.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
-    dependencies:
-      '@radix-ui/react-accordion': 1.2.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@radix-ui/react-slot': 1.2.0(@types/react@19.2.0)(react@19.2.0)
-      '@radix-ui/react-switch': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      c15t: 1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      clsx: 2.1.1
-      react: 19.2.0
-      react-dom: 19.2.0(react@19.2.0)
-      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/api'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/react'
-      - '@types/react-dom'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - immer
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - use-sync-external-store
-      - ws
-
-  '@c15t/react@1.7.0-canary-20251012181938(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
-    dependencies:
-      '@radix-ui/react-accordion': 1.2.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      '@radix-ui/react-slot': 1.2.0(@types/react@19.2.0)(react@19.2.0)
-      '@radix-ui/react-switch': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      c15t: 1.7.0-canary-20251012181938(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      c15t: 1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
       clsx: 2.1.1
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
@@ -6260,6 +5995,7 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
@@ -6282,12 +6018,114 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  '@c15t/react@1.7.0-canary-20251012181938(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@c15t/react@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+    dependencies:
+      '@radix-ui/react-accordion': 1.2.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@radix-ui/react-slot': 1.2.0(@types/react@19.2.0)(react@19.2.0)
+      '@radix-ui/react-switch': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      c15t: 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      clsx: 2.1.1
+      react: 19.2.0
+      react-dom: 19.2.0(react@19.2.0)
+      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
+    transitivePeerDependencies:
+      - '@aws-sdk/client-rds-data'
+      - '@cloudflare/workers-types'
+      - '@electric-sql/pglite'
+      - '@libsql/client'
+      - '@libsql/client-wasm'
+      - '@neondatabase/serverless'
+      - '@op-engineering/op-sqlite'
+      - '@opentelemetry/api'
+      - '@opentelemetry/instrumentation'
+      - '@planetscale/database'
+      - '@prisma/client'
+      - '@tidbcloud/serverless'
+      - '@types/better-sqlite3'
+      - '@types/pg'
+      - '@types/react'
+      - '@types/react-dom'
+      - '@types/sql.js'
+      - '@upstash/redis'
+      - '@vercel/postgres'
+      - '@xata.io/client'
+      - better-sqlite3
+      - bun-types
+      - convex
+      - crossws
+      - expo-sqlite
+      - gel
+      - immer
+      - knex
+      - mongodb
+      - mysql2
+      - pg
+      - postgres
+      - prisma
+      - sql.js
+      - sqlite3
+      - supports-color
+      - typeorm
+      - use-sync-external-store
+      - ws
+
+  '@c15t/react@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)':
+    dependencies:
+      '@radix-ui/react-accordion': 1.2.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@radix-ui/react-slot': 1.2.0(@types/react@19.2.0)(react@19.2.0)
+      '@radix-ui/react-switch': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      c15t: 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      clsx: 2.1.1
+      react: 19.2.0
+      react-dom: 19.2.0(react@19.2.0)
+      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
+    transitivePeerDependencies:
+      - '@aws-sdk/client-rds-data'
+      - '@cloudflare/workers-types'
+      - '@electric-sql/pglite'
+      - '@libsql/client'
+      - '@libsql/client-wasm'
+      - '@neondatabase/serverless'
+      - '@op-engineering/op-sqlite'
+      - '@opentelemetry/api'
+      - '@opentelemetry/instrumentation'
+      - '@planetscale/database'
+      - '@prisma/client'
+      - '@tidbcloud/serverless'
+      - '@types/better-sqlite3'
+      - '@types/pg'
+      - '@types/react'
+      - '@types/react-dom'
+      - '@types/sql.js'
+      - '@upstash/redis'
+      - '@vercel/postgres'
+      - '@xata.io/client'
+      - better-sqlite3
+      - bun-types
+      - convex
+      - crossws
+      - expo-sqlite
+      - gel
+      - immer
+      - knex
+      - mongodb
+      - mysql2
+      - pg
+      - postgres
+      - prisma
+      - sql.js
+      - sqlite3
+      - supports-color
+      - typeorm
+      - use-sync-external-store
+      - ws
+
+  '@c15t/react@1.7.1(@opentelemetry/api@1.9.0)(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/react-accordion': 1.2.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-slot': 1.2.0(@types/react@19.2.0)(react@19.1.0)
       '@radix-ui/react-switch': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      c15t: 1.7.0-canary-20251012181938(@opentelemetry/api@1.9.0)(@types/react@19.2.0)(react@19.1.0)
+      c15t: 1.7.1(@opentelemetry/api@1.9.0)(@types/react@19.2.0)(react@19.1.0)
       clsx: 2.1.1
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
@@ -6310,6 +6148,7 @@ snapshots:
       - '@types/react'
       - '@types/react-dom'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
@@ -6332,11 +6171,11 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  '@c15t/scripts@1.0.0-canary-20251012181938': {}
+  '@c15t/scripts@1.0.0': {}
 
   '@c15t/translations@1.6.0': {}
 
-  '@c15t/translations@1.7.0-canary-20251012181938': {}
+  '@c15t/translations@1.7.0': {}
 
   '@chevrotain/cst-dts-gen@10.5.0':
     dependencies:
@@ -7490,6 +7329,20 @@ snapshots:
       '@types/react': 19.2.0
       '@types/react-dom': 19.2.0(@types/react@19.2.0)
 
+  '@radix-ui/react-accordion@1.2.4(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+    dependencies:
+      '@radix-ui/primitive': 1.1.2
+      '@radix-ui/react-collapsible': 1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@radix-ui/react-collection': 1.1.3(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.2.0)(react@19.2.0)
+      '@radix-ui/react-context': 1.1.2(@types/react@19.2.0)(react@19.2.0)
+      '@radix-ui/react-direction': 1.1.1(@types/react@19.2.0)(react@19.2.0)
+      '@radix-ui/react-id': 1.1.1(@types/react@19.2.0)(react@19.2.0)
+      '@radix-ui/react-primitive': 2.0.3(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      '@radix-ui/react-use-controllable-state': 1.1.1(@types/react@19.2.0)(react@19.2.0)
+      react: 19.2.0
+      react-dom: 19.2.0(react@19.2.0)
+
   '@radix-ui/react-collapsible@1.1.4(@types/react-dom@19.2.0(@types/react@19.2.0))(@types/react@19.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/primitive': 1.1.2
@@ -8470,112 +8323,6 @@ snapshots:
     optionalDependencies:
       magicast: 0.3.5
 
-  c15t@1.6.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3):
-    dependencies:
-      '@c15t/backend': 1.6.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      '@c15t/translations': 1.6.0
-      '@orpc/client': 1.8.1(@opentelemetry/api@1.9.0)
-      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/api'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/react'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - immer
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - react
-      - react-dom
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - use-sync-external-store
-      - ws
-
-  c15t@1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3):
-    dependencies:
-      '@c15t/backend': 1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      '@c15t/translations': 1.6.0
-      '@orpc/client': 1.8.1(@opentelemetry/api@1.9.0)
-      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/api'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/react'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - immer
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - react
-      - react-dom
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - use-sync-external-store
-      - ws
-
   c15t@1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3):
     dependencies:
       '@c15t/backend': 1.6.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
@@ -8629,63 +8376,10 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  c15t@1.6.0(@opentelemetry/api@1.9.0)(@types/react@19.2.0)(crossws@0.4.1)(react@19.2.0)(ws@8.18.3):
+  c15t@1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3):
     dependencies:
-      '@c15t/backend': 1.6.0(crossws@0.4.1)(react@19.2.0)(ws@8.18.3)
-      '@c15t/translations': 1.6.0
-      '@orpc/client': 1.8.1(@opentelemetry/api@1.9.0)
-      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
-      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
-    transitivePeerDependencies:
-      - '@aws-sdk/client-rds-data'
-      - '@babel/core'
-      - '@cloudflare/workers-types'
-      - '@electric-sql/pglite'
-      - '@libsql/client'
-      - '@libsql/client-wasm'
-      - '@neondatabase/serverless'
-      - '@op-engineering/op-sqlite'
-      - '@opentelemetry/api'
-      - '@opentelemetry/instrumentation'
-      - '@planetscale/database'
-      - '@playwright/test'
-      - '@prisma/client'
-      - '@tidbcloud/serverless'
-      - '@types/better-sqlite3'
-      - '@types/pg'
-      - '@types/react'
-      - '@types/sql.js'
-      - '@vercel/postgres'
-      - '@xata.io/client'
-      - babel-plugin-macros
-      - babel-plugin-react-compiler
-      - better-sqlite3
-      - bun-types
-      - convex
-      - crossws
-      - expo-sqlite
-      - gel
-      - immer
-      - knex
-      - mongodb
-      - mysql2
-      - pg
-      - postgres
-      - prisma
-      - react
-      - react-dom
-      - sass
-      - sql.js
-      - sqlite3
-      - supports-color
-      - typeorm
-      - use-sync-external-store
-      - ws
-
-  c15t@1.7.0-canary-20251012181938(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3):
-    dependencies:
-      '@c15t/backend': 1.7.0-canary-20251012181938(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
-      '@c15t/translations': 1.7.0-canary-20251012181938
+      '@c15t/backend': 1.7.1(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.14.3)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/translations': 1.7.0
       '@orpc/client': 1.8.1(@opentelemetry/api@1.9.0)
       '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
       zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
@@ -8706,6 +8400,7 @@ snapshots:
       - '@types/pg'
       - '@types/react'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
@@ -8729,10 +8424,106 @@ snapshots:
       - use-sync-external-store
       - ws
 
-  c15t@1.7.0-canary-20251012181938(@opentelemetry/api@1.9.0)(@types/react@19.2.0)(react@19.1.0):
+  c15t@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3):
     dependencies:
-      '@c15t/backend': 1.7.0-canary-20251012181938
-      '@c15t/translations': 1.7.0-canary-20251012181938
+      '@c15t/backend': 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/translations': 1.7.0
+      '@orpc/client': 1.8.1(@opentelemetry/api@1.9.0)
+      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
+    transitivePeerDependencies:
+      - '@aws-sdk/client-rds-data'
+      - '@cloudflare/workers-types'
+      - '@electric-sql/pglite'
+      - '@libsql/client'
+      - '@libsql/client-wasm'
+      - '@neondatabase/serverless'
+      - '@op-engineering/op-sqlite'
+      - '@opentelemetry/api'
+      - '@opentelemetry/instrumentation'
+      - '@planetscale/database'
+      - '@prisma/client'
+      - '@tidbcloud/serverless'
+      - '@types/better-sqlite3'
+      - '@types/pg'
+      - '@types/react'
+      - '@types/sql.js'
+      - '@upstash/redis'
+      - '@vercel/postgres'
+      - '@xata.io/client'
+      - better-sqlite3
+      - bun-types
+      - convex
+      - crossws
+      - expo-sqlite
+      - gel
+      - immer
+      - knex
+      - mongodb
+      - mysql2
+      - pg
+      - postgres
+      - prisma
+      - react
+      - sql.js
+      - sqlite3
+      - supports-color
+      - typeorm
+      - use-sync-external-store
+      - ws
+
+  c15t@1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(@types/react@19.2.0)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(react@19.2.0)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3):
+    dependencies:
+      '@c15t/backend': 1.7.1(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/instrumentation@0.205.0(@opentelemetry/api@1.9.0))(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(crossws@0.4.1)(mysql2@3.15.1)(pg@8.16.3)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))(ws@8.18.3)
+      '@c15t/translations': 1.7.0
+      '@orpc/client': 1.8.1(@opentelemetry/api@1.9.0)
+      '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
+      zustand: 5.0.6(@types/react@19.2.0)(react@19.2.0)
+    transitivePeerDependencies:
+      - '@aws-sdk/client-rds-data'
+      - '@cloudflare/workers-types'
+      - '@electric-sql/pglite'
+      - '@libsql/client'
+      - '@libsql/client-wasm'
+      - '@neondatabase/serverless'
+      - '@op-engineering/op-sqlite'
+      - '@opentelemetry/api'
+      - '@opentelemetry/instrumentation'
+      - '@planetscale/database'
+      - '@prisma/client'
+      - '@tidbcloud/serverless'
+      - '@types/better-sqlite3'
+      - '@types/pg'
+      - '@types/react'
+      - '@types/sql.js'
+      - '@upstash/redis'
+      - '@vercel/postgres'
+      - '@xata.io/client'
+      - better-sqlite3
+      - bun-types
+      - convex
+      - crossws
+      - expo-sqlite
+      - gel
+      - immer
+      - knex
+      - mongodb
+      - mysql2
+      - pg
+      - postgres
+      - prisma
+      - react
+      - sql.js
+      - sqlite3
+      - supports-color
+      - typeorm
+      - use-sync-external-store
+      - ws
+
+  c15t@1.7.1(@opentelemetry/api@1.9.0)(@types/react@19.2.0)(react@19.1.0):
+    dependencies:
+      '@c15t/backend': 1.7.1
+      '@c15t/translations': 1.7.0
       '@orpc/client': 1.8.1(@opentelemetry/api@1.9.0)
       '@orpc/server': 1.8.1(@opentelemetry/api@1.9.0)(crossws@0.4.1)(ws@8.18.3)
       zustand: 5.0.6(@types/react@19.2.0)(react@19.1.0)
@@ -8753,6 +8544,7 @@ snapshots:
       - '@types/pg'
       - '@types/react'
       - '@types/sql.js'
+      - '@upstash/redis'
       - '@vercel/postgres'
       - '@xata.io/client'
       - better-sqlite3
@@ -8992,42 +8784,6 @@ snapshots:
 
   dotenv@17.2.3: {}
 
-  drizzle-orm@0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3):
-    optionalDependencies:
-      '@cloudflare/workers-types': 4.20250507.0
-      '@libsql/client': 0.15.15
-      '@opentelemetry/api': 1.9.0
-      '@types/better-sqlite3': 7.6.13
-      '@types/pg': 8.15.5
-      better-sqlite3: 11.10.0
-      kysely: 0.27.6
-      mysql2: 3.14.3
-      pg: 8.16.3
-
-  drizzle-orm@0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3):
-    optionalDependencies:
-      '@cloudflare/workers-types': 4.20250507.0
-      '@libsql/client': 0.15.15
-      '@opentelemetry/api': 1.9.0
-      '@types/better-sqlite3': 7.6.13
-      '@types/pg': 8.15.5
-      better-sqlite3: 12.4.1
-      kysely: 0.27.6
-      mysql2: 3.14.3
-      pg: 8.16.3
-
-  drizzle-orm@0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3):
-    optionalDependencies:
-      '@cloudflare/workers-types': 4.20251001.0
-      '@libsql/client': 0.15.15
-      '@opentelemetry/api': 1.9.0
-      '@types/better-sqlite3': 7.6.13
-      '@types/pg': 8.15.5
-      better-sqlite3: 11.10.0
-      kysely: 0.27.6
-      mysql2: 3.15.1
-      pg: 8.16.3
-
   drizzle-orm@0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3):
     optionalDependencies:
       '@cloudflare/workers-types': 4.20251001.0
@@ -9040,6 +8796,30 @@ snapshots:
       mysql2: 3.15.1
       pg: 8.16.3
 
+  drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3):
+    optionalDependencies:
+      '@cloudflare/workers-types': 4.20250507.0
+      '@libsql/client': 0.15.15
+      '@opentelemetry/api': 1.9.0
+      '@types/better-sqlite3': 7.6.13
+      '@types/pg': 8.15.5
+      better-sqlite3: 11.10.0
+      kysely: 0.27.6
+      mysql2: 3.14.3
+      pg: 8.16.3
+
+  drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3):
+    optionalDependencies:
+      '@cloudflare/workers-types': 4.20250507.0
+      '@libsql/client': 0.15.15
+      '@opentelemetry/api': 1.9.0
+      '@types/better-sqlite3': 7.6.13
+      '@types/pg': 8.15.5
+      better-sqlite3: 12.4.1
+      kysely: 0.27.6
+      mysql2: 3.14.3
+      pg: 8.16.3
+
   drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.28.4)(mysql2@3.14.3)(pg@8.16.3):
     optionalDependencies:
       '@cloudflare/workers-types': 4.20250507.0
@@ -9050,6 +8830,30 @@ snapshots:
       better-sqlite3: 12.4.1
       kysely: 0.28.4
       mysql2: 3.14.3
+      pg: 8.16.3
+
+  drizzle-orm@0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3):
+    optionalDependencies:
+      '@cloudflare/workers-types': 4.20251001.0
+      '@libsql/client': 0.15.15
+      '@opentelemetry/api': 1.9.0
+      '@types/better-sqlite3': 7.6.13
+      '@types/pg': 8.15.5
+      better-sqlite3: 11.10.0
+      kysely: 0.27.6
+      mysql2: 3.15.1
+      pg: 8.16.3
+
+  drizzle-orm@0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3):
+    optionalDependencies:
+      '@cloudflare/workers-types': 4.20251001.0
+      '@libsql/client': 0.15.15
+      '@opentelemetry/api': 1.9.0
+      '@types/better-sqlite3': 7.6.13
+      '@types/pg': 8.15.5
+      better-sqlite3: 12.4.1
+      kysely: 0.27.6
+      mysql2: 3.15.1
       pg: 8.16.3
 
   dset@3.1.4: {}
@@ -9248,45 +9052,6 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  fumadb@0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2)):
-    dependencies:
-      '@clack/prompts': 0.11.0
-      '@paralleldrive/cuid2': 2.2.2
-      commander: 14.0.1
-      kysely: 0.28.4
-      kysely-typeorm: 0.3.0(kysely@0.28.4)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))
-      semver: 7.7.2
-      zod: 4.1.11
-    optionalDependencies:
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3)
-      typeorm: 0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2)
-
-  fumadb@0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2)):
-    dependencies:
-      '@clack/prompts': 0.11.0
-      '@paralleldrive/cuid2': 2.2.2
-      commander: 14.0.1
-      kysely: 0.28.4
-      kysely-typeorm: 0.3.0(kysely@0.28.4)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2))
-      semver: 7.7.2
-      zod: 4.1.11
-    optionalDependencies:
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.14.3)(pg@8.16.3)
-      typeorm: 0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2)
-
-  fumadb@0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)):
-    dependencies:
-      '@clack/prompts': 0.11.0
-      '@paralleldrive/cuid2': 2.2.2
-      commander: 14.0.1
-      kysely: 0.28.4
-      kysely-typeorm: 0.3.0(kysely@0.28.4)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
-      semver: 7.7.2
-      zod: 4.1.11
-    optionalDependencies:
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
-      typeorm: 0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)
-
   fumadb@0.1.1(drizzle-orm@0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)):
     dependencies:
       '@clack/prompts': 0.11.0
@@ -9300,7 +9065,7 @@ snapshots:
       drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
       typeorm: 0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)
 
-  fumadb@0.1.1(drizzle-orm@0.41.0(@opentelemetry/api@1.9.0)(kysely@0.27.6)):
+  fumadb@0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.28.4)(mysql2@3.14.3)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2)):
     dependencies:
       '@clack/prompts': 0.11.0
       '@paralleldrive/cuid2': 2.2.2
@@ -9310,7 +9075,34 @@ snapshots:
       semver: 7.7.2
       zod: 4.1.11
     optionalDependencies:
-      drizzle-orm: 0.41.0(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20250507.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.28.4)(mysql2@3.14.3)(pg@8.16.3)
+      typeorm: 0.3.27(better-sqlite3@12.4.1)(mysql2@3.14.3)(pg@8.16.3)(reflect-metadata@0.2.2)
+
+  fumadb@0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)):
+    dependencies:
+      '@clack/prompts': 0.11.0
+      '@paralleldrive/cuid2': 2.2.2
+      commander: 14.0.1
+      kysely: 0.28.4
+      kysely-typeorm: 0.3.0(kysely@0.28.4)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
+      semver: 7.7.2
+      zod: 4.1.11
+    optionalDependencies:
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@11.10.0)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
+      typeorm: 0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)
+
+  fumadb@0.1.1(drizzle-orm@0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3))(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)):
+    dependencies:
+      '@clack/prompts': 0.11.0
+      '@paralleldrive/cuid2': 2.2.2
+      commander: 14.0.1
+      kysely: 0.28.4
+      kysely-typeorm: 0.3.0(kysely@0.28.4)(typeorm@0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2))
+      semver: 7.7.2
+      zod: 4.1.11
+    optionalDependencies:
+      drizzle-orm: 0.44.6(@cloudflare/workers-types@4.20251001.0)(@libsql/client@0.15.15)(@opentelemetry/api@1.9.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.15.5)(better-sqlite3@12.4.1)(kysely@0.27.6)(mysql2@3.15.1)(pg@8.16.3)
+      typeorm: 0.3.27(better-sqlite3@12.4.1)(mysql2@3.15.1)(pg@8.16.3)(reflect-metadata@0.2.2)
 
   function-bind@1.1.2: {}
 

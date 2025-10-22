@@ -9,8 +9,8 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@c15t/react": "^1.7.0-canary-20251012181938",
-		"@c15t/scripts": "^1.0.0-canary-20251012181938",
+		"@c15t/react": "^1.7.1",
+		"@c15t/scripts": "^1.0.0",
 		"@remixicon/react": "^4.6.0",
 		"react": "19.2.0",
 		"react-dom": "19.2.0"

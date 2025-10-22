@@ -11,8 +11,8 @@
 	},
 	"dependencies": {
 		"@astrojs/react": "4.2.3",
-		"@c15t/react": "^1.7.0-canary-20251012181938",
-		"@c15t/scripts": "^1.0.0-canary-20251012181938",
+		"@c15t/react": "^1.7.1",
+		"@c15t/scripts": "^1.0.0",
 		"@remixicon/react": "^4.6.0",
 		"@tailwindcss/vite": "^4",
 		"@types/react": "19.2.0",

@@ -8,8 +8,8 @@
 		"fmt": "pnpm biome format --write ."
 	},
 	"dependencies": {
-		"@c15t/backend": "1.6.0",
-		"@c15t/cli": "1.6.1",
+		"@c15t/backend": "^1.7.1",
+		"@c15t/cli": "^1.7.1",
 		"@libsql/client": "0.15.15",
 		"@libsql/kysely-libsql": "0.4.1",
 		"drizzle-orm": "0.44.6",
